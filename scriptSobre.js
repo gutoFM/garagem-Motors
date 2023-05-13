@@ -14,6 +14,10 @@ function slideShow(){
     setTimeout('slideShow()', time)
 };
 
+function trocar(cor){
+    document.body.style.background = cor
+}
+
 slideShow()
 
 let data7 = new Date()
@@ -26,3 +30,4 @@ let mensagem = dia + " de " +meses[mes]+ " de " +ano
 
 let msg = document.getElementById('msg')
 msg.innerHTML = mensagem
+

@@ -37,7 +37,7 @@ header{
 
 #menu ul li a{
     font-family: Arial;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 21px;
     text-decoration: none;
 }
@@ -55,7 +55,7 @@ header{
     background-color: rgb(124, 91, 0);
     margin-right: 490px;
     margin-left: 510px;
-    margin-bottom: 250px;
+    margin-bottom: 400px;
     position: relative;
     top: 100px;
     padding: 50px;
@@ -80,6 +80,16 @@ img{
     text-align: center;
     color: white;
     font-family: arial;
+}
+
+.color input{
+    position: relative;
+    left: 250px;
+}
+
+.color #cor2 input{
+    background-color: black;
+    color: white;
 }
 
 footer{
