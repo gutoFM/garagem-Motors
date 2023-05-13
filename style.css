@@ -128,14 +128,20 @@ footer{
 .boxcar{
     display: inline-block;
     position: relative;
-    left: 490px;
+    left: 529px;
     bottom: 100px;
     background-color: rgb(255, 181, 90);
     border-radius: 25px;
     box-shadow: 2px 25px 55px -16px black;
     margin-top: 250px;
     margin-right: 13px;
+    margin-bottom: 800px;
     padding: 20px;
+}
+
+.coluna{
+    position: relative;
+    right: 24px;
 }
 
 #cars img{
@@ -145,15 +151,18 @@ footer{
 .boxcar2{
     display: inline-block;
     position: relative;
-    right: 400px;
-    top: 300px;
+    right: 500px;
+    top: 350px;
     background-color: rgb(255, 181, 90);
+    box-shadow: 2px 25px 55px -16px black;
     border-radius: 25px;
-    margin-bottom: 650px;
+    padding: 20px;
+    margin-right: 13px;
 }
 
 .coluna2{
-    border: 0;
+    position: relative;
+    right: 24px;
 }
 
 
