@@ -1,10 +1,9 @@
 /*Index*/
 
 body{
-    background: rgb(255,188,0);
-    background: linear-gradient(95deg, rgba(255,188,0,1) 0%, rgba(54,54,54,1) 100%);
-    font-family: Arial;
-    border: 0;
+    background-image: url(imagens/1624325213189.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header{
@@ -47,15 +46,19 @@ header{
     color: rgb(104, 104, 104);
 }
 
+#enviar input{
+    position: relative;
+    left: 375px;
+}
+
 .cars{
     text-align: center;
 }
 
 .box{
-    background-color: rgb(124, 91, 0);
+    background-color: rgb(68, 68, 68);
     margin-right: 490px;
     margin-left: 510px;
-    margin-bottom: 400px;
     position: relative;
     top: 100px;
     padding: 50px;
@@ -89,6 +92,37 @@ img{
 
 .color #cor2 input{
     background-color: black;
+    color: white;
+}
+
+
+#questBox{
+    background: rgb(138,138,138);
+    background: linear-gradient(0deg, rgba(138,138,138,1) 0%, rgba(96,96,96,1) 15%, rgba(73,73,73,1) 38%, rgba(35,35,35,1) 66%, rgba(13,13,13,1) 85%, rgba(0,0,0,1) 100%);   
+    margin-bottom: 200px;
+    margin-top: 250px;
+    height: 350px;
+    border-radius: 3px;
+}
+
+#questBox h1{
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 7px;
+}
+
+#questBox h2{
+    font-family: Arial;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+
+#questBox p{
+    font-family: Arial;
+    text-align: center;
     color: white;
 }
 
